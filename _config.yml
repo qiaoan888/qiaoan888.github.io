@@ -21,3 +21,10 @@ zhihu_username:     username
 github_username:    qiaoan888
 facebook_username:  username
 jianshu_username:   jianshu_id
+
+
+
+
+# Featured Tags
+featured-tags: true                     
+featured-condition-size: 0 
