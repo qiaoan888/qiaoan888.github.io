@@ -1,16 +1,23 @@
 # Site setting
-blog_username: TiAmo
-sex: girl
-birthday: 2002.7
-career: student
-personal signature: 当我遇到你的那天，我希望是在意大利。
-github_username:  qiaoan888
+title: TiAmo的博客
+SEOTitle: TiAmo的博客
+header-img:  
 email: 3401617151@qq.com
+description: 当我遇到你的那天，我希望是在意大利。
+url: "https://qiaoan888.github.io"
+baseurl: ""
 
-  
-baseurl: "/clean" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Sidebar settings
+sidebar: true                          
+sidebar-avatar: /img/avatar-by.JPG   
 
 
-# Build settings
-markdown: kramdown
+
+# SNS settings
+RSS: false
+weibo_username:     username
+zhihu_username:     username
+github_username:    qiaoan888
+facebook_username:  username
+jianshu_username:   jianshu_id
