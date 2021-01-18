@@ -15,7 +15,7 @@ sidebar-avatar: /img/avatar-by.JPG
 
 
 # SNS settings
-RSS: false
+RSS: true
 weibo_username:     username
 zhihu_username:     username
 github_username:    qiaoan888
