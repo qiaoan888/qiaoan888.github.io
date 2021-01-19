@@ -27,8 +27,5 @@ jianshu_username:   jianshu_id
 
 # Featured Tags
 featured-tags: true                     
-featured-condition-size: 0 
-
-
-![GIF]({{site.baseurl}}/assets/img/fresh.gif)
+featured-condition-size: 0
 
