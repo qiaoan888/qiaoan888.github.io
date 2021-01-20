@@ -1,6 +1,7 @@
 <!-- lang: html -->
 ---
    如何利用jekyll和Github 搭建博客？
+   
 ---
 # 目录
 + [注册Github](#partI)
@@ -11,7 +12,7 @@
 + [创建博客](#partVI)
 + [复制主题](#partVII)
 
-----------------------------------
+
 ## 注册Github <p id="partI"></p>
 1、当我们进入官网后会出现登陆的界面
 （1）是输入用户、邮箱、密码的地方。（2）是当你注册好了之后或者已注册之后点击这里跳转到登陆的界面。
@@ -22,12 +23,12 @@
 （2）全部输入完成之后点击页面底部的create an account 创建账号 （3）继续下一步是激活邮箱激活,之后就注册成功了。
 
 
-----------------------------------
+
 ## 创建仓库 <p id="partII"></p>
 在Github首页右上角头像左侧加号点选择 New repositor(新存储库)进行创建一个仓库.
 
 
-----------------------------------
+
 ## 开启Github Pages <p id="partIII"></p>
 
 
@@ -38,7 +39,7 @@
 
 设置完毕后你就可以通过（ https://你的用户名.github.io ）进行博客访问
 
-----------------------------------
+
 ## 安装Ruby <p id="partIV"></p>
 Windows 用户访问 http://rubyinstaller.org/ 下载 130.9MB  大小的 rubyinstaller-devkit-2.7.1-1-x64.exe
 
@@ -48,7 +49,6 @@ Windows 用户访问 http://rubyinstaller.org/ 下载 130.9MB  大小的 rubyins
 
 然后在命令提示符中验证一下安装结果
 
-----------------------------------
 ## 安装Jekyll <p id="partV"></p>
 这里通过 RubyGems 安装 Jekyll，所以先到官网 https://rubygems.org/ 下载 1.27MB 大小的rubygems-3.1.4.zip
 
@@ -60,7 +60,6 @@ Windows 用户访问 http://rubyinstaller.org/ 下载 130.9MB  大小的 rubyins
 
 至此，Jekyll就安装完毕了
 
-----------------------------------
 ## 创建博客 <p id="partVI"></p>
 先建一个文件夹（这里命名为 Jekyll）用于存放博客内容，然后在命令提示符中执行以下命令创建 Jekyll 工作区
 
@@ -74,7 +73,7 @@ Windows 用户访问 http://rubyinstaller.org/ 下载 130.9MB  大小的 rubyins
 
 访问 http://127.0.0.1:4000/ 会看到下面的页面
 
-----------------------------------
+
 ## 复制主题 <p id="partVII"></p>
 这里将该主题代码弄下来后，通过 jekyll s 命令启动来查看本地效果
 
@@ -86,5 +85,5 @@ Windows 用户访问 http://rubyinstaller.org/ 下载 130.9MB  大小的 rubyins
 
 接着再启动就成功了，访问 http://127.0.0.1:4000/ 就看到本地页面了
 
-----------------------------------
+
 
