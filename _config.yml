@@ -1,7 +1,7 @@
 # Site setting
 title: TiAmo的博客
 SEOTitle: TiAmo的博客
-header-img:  
+header-img:  ![背景]({{ site.url }}/assets/screen.png.jpg)
 email: 3401617151@qq.com
 description: 当我遇到你的那天，我希望是在意大利。
 url: "https://qiaoan888.github.io"
@@ -10,7 +10,7 @@ baseurl: ""
 
 # Sidebar settings
 sidebar: true                          
-sidebar-avatar: /img/avatar-by.JPG   
+sidebar-avatar: ![头像]({{ site.url }}/assets/QQ图片20210119211615.jpg) 
 
 
 
