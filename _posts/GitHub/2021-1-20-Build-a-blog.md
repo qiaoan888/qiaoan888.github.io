@@ -49,45 +49,45 @@ Windows 用户访问 http://rubyinstaller.org/ 下载 130.9MB  大小的 rubyins
 
 然后在命令提示符中验证一下安装结果
 
-![图]({{ site.url }}/assets/YU07(B_(L9_)L%4PF87Q}DX.png)
+![图]({{ site.url }}/assets/YU07(B_(L9_)L%4PF87Q}DX.jpg)
 
 ## 安装Jekyll <p id="partV"></p>
 这里通过 RubyGems 安装 Jekyll，所以先到官网 https://rubygems.org/ 下载 1.27MB 大小的rubygems-3.1.4.zip
 
 接着解压压缩包到桌面，并在命令提示符中执行安装命令
 
-![图]({{ site.url }}/assets/(LD19IZP%_9{IAF$@4%QH9Q.png)
+![图]({{ site.url }}/assets/(LD19IZP%_9{IAF$@4%QH9Q.jpg)
 
 然后删掉 rubygems-3.1.4 文件夹，它没用了
 
 下面进入正题：用 RubyGems 来安装 Jekyll（这个耗时也有点长…）
 
-![图]({{ site.url }}/assets/C9{`J@@)7_IOHTX}@[8OG1N.png)
+![图]({{ site.url }}/assets/C9{`J@@)7_IOHTX}@[8OG1N.jpg)
 
 至此，Jekyll就安装完毕了
 
 ## 创建博客 <p id="partVI"></p>
 先建一个文件夹（这里命名为 Jekyll）用于存放博客内容，然后在命令提示符中执行以下命令创建 Jekyll 工作区
 
-![图]({{ site.url }}/assets/_184PZCNRU14J_IKV[QS0V2.png)
+![图]({{ site.url }}/assets/_184PZCNRU14J_IKV[QS0V2.jpg)
 
 注①：在执行完命令后，若过了一段时间控制台还是没有动静，不妨敲一下回车（堵了，执行结果没有输出在控制台上）
 
 注②：以前的 Jekyll 版本曾遇到下面的错误提示，此时需安装 bundler，然后再重新执行命令（记得先删掉上面 new 的 myblog 目录）
 
-![图]({{ site.url }}/assets/WP7`TOT)IRCR43{8DZ(PE33.png)
+![图]({{ site.url }}/assets/WP7`TOT)IRCR43{8DZ(PE33.jpg)
 
 创建完毕，我们回到本地目录看一下
 
-![图]({{ site.url }}/assets/光效.png)
+![图]({{ site.url }}/assets/光效.jpg)
 
 接下来到博客文件夹中，启动Jekyll服务
 
-![图]({{ site.url }}/assets/光效.png)
+![图]({{ site.url }}/assets/光效.jpg)
 
 访问 http://127.0.0.1:4000/ 会看到下面的页面
 
-![图]({{ site.url }}/assets/光效.png)
+![图]({{ site.url }}/assets/光效.![图]({{ site.url }}/assets/光效.jpg)
 
 
 ## 复制主题 <p id="partVII"></p>
@@ -95,11 +95,11 @@ Windows 用户访问 http://rubyinstaller.org/ 下载 130.9MB  大小的 rubyins
 
 本地启动时，可能会报告下面的错误
 
-![图]({{ site.url }}/assets/光效.png)
+![图]({{ site.url }}/assets/光效.![图]({{ site.url }}/assets/光效.jpg)
 
 这是因为 Jekyll 中默认安装已没有此分页组件，官方将其插件化了，需进行下面操作
 
-![图]({{ site.url }}/assets/光效.png)
+![图]({{ site.url }}/assets/光效.jpg)
 
 接着再启动就成功了，访问 http://127.0.0.1:4000/ 就看到本地页面了
 
