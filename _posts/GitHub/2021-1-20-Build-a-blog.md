@@ -75,19 +75,19 @@ Windows 用户访问 http://rubyinstaller.org/ 下载 130.9MB  大小的 rubyins
 
 注②：以前的 Jekyll 版本曾遇到下面的错误提示，此时需安装 bundler，然后再重新执行命令（记得先删掉上面 new 的 myblog 目录）
 
-![图]({{ site.url }}/assets/WP7`TOT)IRCR43{8DZ(PE33.jpg)
+![图]({{ site.url }}/assets/ZR(AA3ZY)6VSBI_7}DJ0}F3.jpg)
 
 创建完毕，我们回到本地目录看一下
 
-![图]({{ site.url }}/assets/光效.jpg)
+![图]({{ site.url }}/assets/I[[BEK8$_6IKM~0NP_(BCFO.jpg)
 
 接下来到博客文件夹中，启动Jekyll服务
 
-![图]({{ site.url }}/assets/光效.jpg)
+![图]({{ site.url }}/assets/5((@{LCEN$S[PFOEYADKA4M.jpg)
 
 访问 http://127.0.0.1:4000/ 会看到下面的页面
 
-![图]({{ site.url }}/assets/光效.![图]({{ site.url }}/assets/光效.jpg)
+![图]({{ site.url }}/assets/光效.![图]({{ site.url }}/assets/7DEN2(MM`GL2~~N%`8F4GEC.jpg)
 
 
 ## 复制主题 <p id="partVII"></p>
@@ -95,11 +95,11 @@ Windows 用户访问 http://rubyinstaller.org/ 下载 130.9MB  大小的 rubyins
 
 本地启动时，可能会报告下面的错误
 
-![图]({{ site.url }}/assets/光效.![图]({{ site.url }}/assets/光效.jpg)
+![图]({{ site.url }}/assets/光效.![图]({{ site.url }}/assets/Z}R}F1EX_[])HAAVOHVQ~IE.jpg)
 
 这是因为 Jekyll 中默认安装已没有此分页组件，官方将其插件化了，需进行下面操作
 
-![图]({{ site.url }}/assets/光效.jpg)
+![图]({{ site.url }}/assets/JT$]JE1)FBH`@~@@Z{(JQWU.jpg)
 
 接着再启动就成功了，访问 http://127.0.0.1:4000/ 就看到本地页面了
 
