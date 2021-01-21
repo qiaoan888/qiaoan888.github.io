@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 如何利用jekyll和Github 搭建博客？
+title: Build a blog
 ---
-
+如何利用jekyll和Github 搭建博客？
 # 目录
 + [注册Github](#partI)
 + [创建仓库](#partII)
