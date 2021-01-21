@@ -1,7 +1,6 @@
-<!-- lang: html -->
 ---
-   如何利用jekyll和Github 搭建博客？
-   
+layout: post
+title:如何利用jekyll和Github 搭建博客？
 ---
 # 目录
 + [注册Github](#partI)
