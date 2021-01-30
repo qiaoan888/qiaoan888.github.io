@@ -4,35 +4,22 @@ title: Build a blog
 ---
 # 如何利用jekyll+Github 搭建博客？
 
+hello宝宝们今天TiAmo就教大家搭建博客，但TiAmo也是一个小白，那就让我们一起借鉴别人的吧！
+
 ### 注册Github 
-1、当我们进入官网后会出现登陆的界面
-（1）是输入用户、邮箱、密码的地方。（2）是当你注册好了之后或者已注册之后点击这里跳转到登陆的界面。
-（3）是当你第一次使用还没有账号的情况，点击这里进行注册。（4）是登陆GitHub。如果你已经有账号了则直接点击sign in 去登陆就可以了。
+首先就是进入GitHub获得入场劵啦，一起注册吧！
 
-2、点击sign up之后出现的这个页面
-（1）页面中第一个输入栏输入用户名、第二栏输入你邮箱地址，GitHub是通过邮箱激活方式来注册的。
-（2）全部输入完成之后点击页面底部的create an account 创建账号 （3）继续下一步是激活邮箱激活,之后就注册成功了。
+https://www.jianshu.com/p/0c0d8d10a1cb
 
+### 创建仓库并开启Github Pages
 
+接着访问它就可以了，不过只做第四步和第五步就可以了，宝宝们不要做多了呦！
 
-### 创建仓库 
-在Github首页右上角头像左侧加号点选择 New repositor(新存储库)进行创建一个仓库.
-
-
-
-### 开启Github Pages
-
-
-当你的仓库名为：用户名.github.io 之后默认开启Github Pages
-
-现在随便选择一个主题,选择上图的 Choose a theme 之后会跳转到下面这个页面
-
-
-设置完毕后你就可以通过（ https://你的用户名.github.io ）进行博客访问
+https://www.cnblogs.com/jackyroc/p/7681938.html
 
 ### 环境配置
 
-接下来大家把链接进行复制，访问即可。
+接下来宝宝们把链接进行复制，访问即可。
 
 https://jadyer.cn/2016/10/17/jekyll-build-blog/
 
@@ -61,3 +48,9 @@ https://jadyer.cn/2016/10/17/jekyll-build-blog/
 3.页面拉到最底，在Danger Zone直接delete this repository
 
 4.需要输入删除仓库的名字才能确认删除
+
+##### 博客的图片加载不出来或github网页打开慢
+
+如果宝宝们也遇到这样的情况，那我们真是同道中人。不过没关系，TiAmo来帮你解决，跟着下面连接操作起来吧！
+
+https://www.cnblogs.com/zwb12345/p/12432576.html
