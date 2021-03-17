@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>windows上安装clion教程</title>
+    <style>
+        body {
+            margin: 40px;
+            padding: 0;
+            background-color: #f4ede3;
+            font-family: 'PingFang SC','Microsoft YaHei','Helvetica Neue','Helvetica','Arial',sans-serif;
+            text-align:left;
+        }
+        h4 {
+            display: block;
+            margin-block-start: 1.33em;
+            margin-block-end: 1.33em;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+        }
+        .cnblogs_code {
+            background-color: #f5f5f5;
+            font-size: 12px !important;
+            border: 1px solid #ccc;
+            padding: 3px;
+            overflow: auto;
+            margin: 3px 0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+<h2>一、下载Clion</h2>
+<p>进去JetBrains官网下载<a href="https://www.jetbrains.com/clion/download/#section=windows" target="_blank"> Clion </a>  ，页面如下，点击下载即可</p>
+<img src="https://img2020.cnblogs.com/blog/1185943/202004/1185943-20200407115206341-1221614075.png" alt="img">
+<h2>二、安装非常简单，一直next即可。接下来必须安装mingw，否则代码不能运行</h2>
+<h2>三、安装MinGW</h2>
+<p>安装成功后打开软件会提示Toolchains are not configured Configure，因此需要安装MinGW或Cygwin或Visual Studio等编译器，在此推荐安装MinGW</p>
+<h4>① 下载MinGW</h4>
+<P>打开 MinGW 下载页面</P>
+<p>不要点击绿色的按钮，一直向下滑动，找到压缩包，点击下载既可</p>
+<p>将下载的压缩包解压，记住存放解压文件的路径</p>
+<h4>② 配置Clion</h4>
+<p>打开Clion，点击configure，或者选择File-Settings-Build-Toolchains</p>
+<p>在Environment中输入之前MinGW解压文件的路径，之后下面的会自动输入，若不能自动输入，也可以手动输入：</p>
+<p>Make：</p>
+<div class="cnblogs_code">
+    <pre>#解压文件路径# + \bin\mingw32-make.exe</pre>
+</div>
+<p>C Compiler：</p>
+<div class="cnblogs_code">
+    <pre>#解压文件路径# + \bin\gcc.exe</pre>
+</div>
+<p>C++ Compiler：</p>
+<div class="cnblogs_code">
+    <pre>#解压文件路径# + \bin\g++.exe</pre>
+</div>
+<p> Debugger：</p>
+<div class="cnblogs_code">
+    <pre>#解压文件路径# + \bin\gdb.exe</pre>
+</div>
+<p>最后点击OK即可</p>
+<h4>③Clion的简单使用，创建C语言项目</h4>
+<p>若输出结果为：</p>
+<p>则表示Clion安装成功啦！</p>
+</body>
+</html>
