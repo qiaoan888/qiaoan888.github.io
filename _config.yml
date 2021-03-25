@@ -22,7 +22,7 @@ zhihu_username:     username
 github_username:    qiaoan888
 facebook_username:  username
 jianshu_username:   jianshu_id
-
+post_asset_folder: true
 
 
 
