@@ -1,4 +1,5 @@
 # Site setting
+remote_theme: Clean
 title: TiAmo的博客
 SEOTitle: TiAmo的博客
 header-img:  assets/screen.png
